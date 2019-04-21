@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53591" started-at="2019-04-20T11:42:33Z" finished-at="2019-04-20T11:43:26Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.selbot.testcases.TC002_DuplicateLead@5ed7a6]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="53591" started-at="2019-04-20T11:42:33Z" finished-at="2019-04-20T11:43:26Z">
+      <class name="com.selbot.testcases.TC002_DuplicateLead">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.selbot.testcases.TC002_DuplicateLead@5ed7a6]" name="startReport" is-config="true" duration-ms="485" started-at="2019-04-20T11:42:32Z" finished-at="2019-04-20T11:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.selbot.testcases.TC002_DuplicateLead@5ed7a6]" name="setData" is-config="true" duration-ms="0" started-at="2019-04-20T11:42:33Z" finished-at="2019-04-20T11:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.selbot.testcases.TC002_DuplicateLead@5ed7a6]" name="setUpClass" is-config="true" duration-ms="250" started-at="2019-04-20T11:42:33Z" finished-at="2019-04-20T11:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.selbot.testcases.TC002_DuplicateLead@5ed7a6]" name="report" is-config="true" duration-ms="0" started-at="2019-04-20T11:42:33Z" finished-at="2019-04-20T11:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.selbot.testcases.TC002_DuplicateLead@5ed7a6]" name="beforeMethod" is-config="true" duration-ms="6446" started-at="2019-04-20T11:42:34Z" finished-at="2019-04-20T11:42:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selbot.testcases.TC002_DuplicateLead@5ed7a6]" name="createLead" duration-ms="18921" started-at="2019-04-20T11:42:40Z" data-provider="fetchData" finished-at="2019-04-20T11:42:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.selbot.testcases.TC002_DuplicateLead@5ed7a6]" name="afterMethod" is-config="true" duration-ms="2402" started-at="2019-04-20T11:42:59Z" finished-at="2019-04-20T11:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.selbot.testcases.TC002_DuplicateLead@5ed7a6]" name="beforeMethod" is-config="true" duration-ms="5366" started-at="2019-04-20T11:43:02Z" finished-at="2019-04-20T11:43:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selbot.testcases.TC002_DuplicateLead@5ed7a6]" name="createLead" duration-ms="17104" started-at="2019-04-20T11:43:07Z" data-provider="fetchData" finished-at="2019-04-20T11:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10125]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.selbot.testcases.TC002_DuplicateLead@5ed7a6]" name="afterMethod" is-config="true" duration-ms="2156" started-at="2019-04-20T11:43:24Z" finished-at="2019-04-20T11:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.selbot.testcases.TC002_DuplicateLead@5ed7a6]" name="tearDownClass" is-config="true" duration-ms="16" started-at="2019-04-20T11:43:26Z" finished-at="2019-04-20T11:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.selbot.testcases.TC002_DuplicateLead@5ed7a6]" name="stopReport" is-config="true" duration-ms="547" started-at="2019-04-20T11:43:26Z" finished-at="2019-04-20T11:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.selbot.testcases.TC002_DuplicateLead -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
